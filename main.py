@@ -41,7 +41,7 @@ def parse(response):
 def parse_details(product):
     title = product.get('basicInfo').get('name')
     url = product.get('basicInfo').get('productUrl')
-    price = product.get('pricing').get('displayValue')
+    price = product.get('analytics').get('price')
     image_url = get_image_url(product)
     category = product.get('analytics').get('itemCategory3')
     gender = product.get('basicInfo').get('gender')
