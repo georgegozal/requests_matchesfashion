@@ -3,7 +3,7 @@ scrape matchesfashion.com website using requests
 
 ## Overview
 
-This crawler allows you to scrape shoe data, including product details and prices, from the MatchesFashion website. The spider is designed to scrape both women's and men's shoe categories.
+This crawler allows you to scrape shoe data, including product details and prices, from the MatchesFashion website. This script is designed to scrape both women's and men's shoe categories.
 
 ## Usage
 
